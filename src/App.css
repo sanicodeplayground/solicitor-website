@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('../src/fonts/CormorantGaramond-Regular.ttf') format('truetype');
+  src: url('../src/fonts/CormorantGaramond-Bold.ttf') format('truetype');
+  /* Add more src declarations for other font formats (e.g., .woff, .woff2) */
+}
+
+/* Variables */
+:root {
+  --primary-color: #687693;
+  --header-color: #070143;
+  --light-color: #fafbfe;
+  --font-weight-bold: bold;
+  --font-weight-regular: normal;
+}
+
+body {
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: normal;
+  color: var(--primary-color);
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--header-color);
+  font-weight: var(--font-weight-bold);
+}
+.section-padding {
+  padding: 6rem;
+}
+.section-bg-light {
+  background-color: var(--light-color);
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
