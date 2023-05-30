@@ -7,8 +7,6 @@ import AboutSection from './AboutSection';
 import FeaturesSection from './FeaturesSection';
 import ServicesSection from './ServicesSection';
 
-
-
 function Home() {
   return (
     <div>
