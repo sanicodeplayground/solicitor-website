@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sanicodeplayground/solicitor-website/precache-manifest.b8863380c6b1e4f098f8e625de3ec229.js"
+  "/solicitor-website/precache-manifest.f26e977e7419aeedafe976045f0ceff8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/sanicodeplayground/solicitor-website/index.html", {
+workbox.routing.registerNavigationRoute("/solicitor-website/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
