@@ -1,12 +1,21 @@
 import React from 'react';
-import Header from './components/Header';
-import Home from './components/Home';
+import Header from './components/shared/Header';
+
+import AboutPage from './components/pages/AboutPage';
+import ContactPage from './components/pages/ContactPage';
+import HomePage from './components/pages/HomePage';
+import NewsPage from './components/pages/NewsPage';
+import ServicesPage from './components/pages/ServicesPage';
 
 const App = () => {
   return (
     <div>
       <Header />
-      <Home />
+      <HomePage />
+      <AboutPage />
+      <ContactPage />
+      <NewsPage />
+      <ServicesPage />
       {/* Add other components and routes as needed */}
     </div>
   );
