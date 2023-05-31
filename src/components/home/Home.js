@@ -1,11 +1,11 @@
 import React from "react";
 import { Carousel } from 'react-bootstrap';
-import slide1 from '../images/slide-1.jpg';
-import slide2 from '../images/slide-2.jpg';
-import slide3 from '../images/slide-3.jpg';
-import AboutSection from './AboutSection';
-import FeaturesSection from './FeaturesSection';
-import ServicesSection from './ServicesSection';
+import slide1 from '../../images/slide-1.jpg';
+import slide2 from '../../images/slide-2.jpg';
+import slide3 from '../../images/slide-3.jpg';
+import AboutSection from '../shared/AboutSection';
+import FeaturesSection from '../shared/FeaturesSection';
+import ServicesSection from '../shared/ServicesSection';
 
 function Home() {
   return (
