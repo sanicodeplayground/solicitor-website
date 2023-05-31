@@ -1,6 +1,6 @@
 {
-  "name": "website",
-  "homepage": "https://github.com/sanicodeplayground/solicitor-website",
+  "name": "solicitor-website",
+  "homepage": "https://sanicodeplayground.github.io/solicitor-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
