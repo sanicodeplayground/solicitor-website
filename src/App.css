@@ -70,6 +70,13 @@ h1, h2, h3, h4, h5, h6 {
 .cards .card {
   margin: 1rem auto 1rem auto;
 }
+.carousel-caption h3 {
+  color: var(--light-color);
+}
+.carousel-caption {
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
