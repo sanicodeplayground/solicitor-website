@@ -4,66 +4,58 @@
   src: url('../src/fonts/CormorantGaramond-Bold.ttf') format('truetype');
   /* Add more src declarations for other font formats (e.g., .woff, .woff2) */
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 /* Variables */
 :root {
   --primary-color: #687693;
+  --secondary-color: #e3b576;
   --header-color: #070143;
   --light-color: #fafbfe;
   --font-weight-bold: bold;
   --font-weight-regular: normal;
 }
-
 body {
-  font-family: 'Cormorant Garamond', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: normal;
   color: var(--primary-color);
 }
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', sans-serif;
   color: var(--header-color);
   font-weight: var(--font-weight-bold);
 }
+/* Global styles */
 .section-padding {
-  padding: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .section-bg-light {
   background-color: var(--light-color);
 }
-.App {
-  text-align: center;
+.navbar-brand {
+  width: 80px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand img {
+  width: 100%;;
 }
-
+.features-section .feature-item {
+    background: #fff;
+    box-shadow: 0 5px 15px 0 rgba(62,65,159,.1);
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+.feature-item .bi {
+  color: var(--secondary-color);
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 2rem;
+}
+.hero-section {
+  background: var(--header-color)
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }
