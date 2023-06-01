@@ -8,14 +8,11 @@ import ServicesSection from '../shared/ServicesSection';
 function Home() {
   return (
     <div>
-    
-      
       <CarouselSection />
       <FeaturesSection />
       <AboutSection />
       <ServicesSection />
       <ContactInfoSection />
-  
 </div>
 
   );
