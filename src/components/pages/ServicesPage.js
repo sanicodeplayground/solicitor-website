@@ -1,11 +1,13 @@
 import React from "react";
+import ServicesSection from '../shared/ServicesSection';
 
-
-function Home() {
+function ServicesPage() {
   return (
-    <div></div>
+    <section>
+      <ServicesSection />
+    </section>
 
   );
 }
 
-export default Home;
+export default ServicesPage;

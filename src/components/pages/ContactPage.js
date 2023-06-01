@@ -1,11 +1,15 @@
 import React from "react";
+import ContactInfoSection from '../shared/ContactInfoSection';
+import ContactMapSection from '../shared/ContactMapSection';
 
-
-function Home() {
+function ContactPage() {
   return (
-    <div></div>
+    <section>
+      <ContactInfoSection />
+      <ContactMapSection />
+    </section>
 
   );
 }
 
-export default Home;
+export default ContactPage;
