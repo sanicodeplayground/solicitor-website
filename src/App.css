@@ -10,8 +10,9 @@
 :root {
   --primary-color: #687693;
   --secondary-color: #e3b576;
-  --header-color: #070143;
-  --light-color: #fafbfe;
+  --secondary-color-10: #ecddc7;
+  --header-color: #434067;
+  --light-color: #e9ebf1;
   --font-weight-bold: bold;
   --font-weight-regular: normal;
 }
@@ -29,6 +30,13 @@ h1, h2, h3, h4, h5, h6 {
 .section-padding {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.section-title {
+  padding: 6rem 1rem;
+  background-color: var(--light-color);
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+  text-align: center;
 }
 .section-bg-light {
   background-color: var(--light-color);
@@ -51,8 +59,16 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin-bottom: 2rem;
 }
-.hero-section {
-  background: var(--header-color)
+.blog-content {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid var(--secondary-color-10);
+  padding-bottom: 2rem;
+}
+.blog-post .blog-title {
+  margin: 1rem auto;
+}
+.cards .card {
+  margin: 1rem auto 1rem auto;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

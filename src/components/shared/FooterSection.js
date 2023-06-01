@@ -21,7 +21,7 @@ const Footer = () => {
             <a className="text-white" href="#">Contact</a>
           </li>
         </ul>
-        <p className="mb-0">© 2023 Company, Inc.</p>
+        <p className="mb-0">© 2023 Company, all rights reserved</p>
       </div>
     </footer>
   );
