@@ -44,7 +44,7 @@ const ServicesSection = () => {
             <div className="feature-item">
               <i className="bi bi-person-check"></i>
               <h3>Immigration Law</h3>
-              <p>We offer comprehensive immigration law services, including visa applications, appeals, and advice on immigration matters. Our solicitors are here to assist you throughout the process.</p>
+              <p>We offer comprehensive immigration law services, including visa applications, appeals, and advice on immigration matters. </p>
             </div>
           </div>
         </div>

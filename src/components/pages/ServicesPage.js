@@ -3,9 +3,10 @@ import ServicesSection from '../shared/ServicesSection';
 
 function ServicesPage() {
   return (
-    <section>
+    <div>
+      <h2 className="section-title">Services</h2>
       <ServicesSection />
-    </section>
+    </div>
 
   );
 }

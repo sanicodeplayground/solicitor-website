@@ -3,7 +3,7 @@ import aboutImage from '../../images/image.webp';
 
 const AboutSection = () => {
   return (
-    <section className="about-section section-padding section-bg-light">
+    <section className="about-section section-padding">
       <div className="container">
         <div className="row">
           <div className="col-md-6">
@@ -23,7 +23,6 @@ const AboutSection = () => {
               <p>
               Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              
             </div>
           </div>
         </div>

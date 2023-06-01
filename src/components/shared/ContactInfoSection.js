@@ -6,10 +6,10 @@ const ContactInfoSection = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <h2>Contact Us</h2>
-            <p>Email: clerks@4-5.co.uk</p>
+            <h3>Details</h3>
+            <p>Email: demo@email.com</p>
             <p>
-              Telephone: London: +44 (0)20 7404 5252<br />
+              Telephone: London: +44 (0)20 1212 5252<br />
               Birmingham: +44 (0)121 231 7430
             </p>
             <p>
@@ -45,11 +45,11 @@ const ContactInfoSection = () => {
             <p>
               Instruct Us<br />
               To register an interest in sending instructions to Chambers please Click Here
-              or call +44(0) 20 7404 5252.
+              or call +44(0) 20 1212 5252.
             </p>
           </div>
           <div className="col-md-6">
-            <h2>Location</h2>
+            <h3>Location</h3>
             <p>
               <strong>By Tube</strong><br />
               Chancery Lane Station (Central line)
@@ -57,7 +57,7 @@ const ContactInfoSection = () => {
             <p>
               <strong>By Bus</strong><br />
               High Holborn: 8, 25, 242, 521<br />
-              Gray's Inn Rd: 17, 45, 46, 341
+              Gray's Inn Rd: 12, 45, 46, 341
             </p>
             <p>
               <strong>By Car</strong><br />
