@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/solicitor-website/static/media/bootstrap-icons.a30fb81b.woff2"
   },
   {
-    "revision": "22354f56fb743461c13cfed09e0ebd49",
-    "url": "/solicitor-website/static/media/CormorantGaramond-Regular.22354f56.ttf"
-  },
-  {
     "revision": "6c964387bd5890b31ec84032876659b8",
     "url": "/solicitor-website/static/media/CormorantGaramond-Bold.6c964387.ttf"
+  },
+  {
+    "revision": "22354f56fb743461c13cfed09e0ebd49",
+    "url": "/solicitor-website/static/media/CormorantGaramond-Regular.22354f56.ttf"
   },
   {
     "revision": "501c2ca366c42e60f0c33debf7a7403f",
