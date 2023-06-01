@@ -1,11 +1,13 @@
 import React from "react";
+import AboutSection from '../shared/AboutSection';
 
-
-function Home() {
+function AboutPage() {
   return (
-    <div></div>
+    <div>
+      <AboutSection />
+    </div>
 
   );
 }
 
-export default Home;
+export default AboutPage;
