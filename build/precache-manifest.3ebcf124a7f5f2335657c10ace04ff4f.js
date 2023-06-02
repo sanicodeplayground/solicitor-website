@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/solicitor-website/static/media/logo.0a9e92ef.png"
   },
   {
-    "revision": "3d0ec57f40d62ba6a8e0d1857bb8f7d5",
-    "url": "/solicitor-website/static/media/bootstrap-icons.3d0ec57f.woff"
-  },
-  {
     "revision": "a30fb81bd52143bcd4de2898422ac8b9",
     "url": "/solicitor-website/static/media/bootstrap-icons.a30fb81b.woff2"
+  },
+  {
+    "revision": "3d0ec57f40d62ba6a8e0d1857bb8f7d5",
+    "url": "/solicitor-website/static/media/bootstrap-icons.3d0ec57f.woff"
   },
   {
     "revision": "22354f56fb743461c13cfed09e0ebd49",

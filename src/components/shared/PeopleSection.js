@@ -1,7 +1,13 @@
 import React from 'react';
-import featuresImage1 from '../../images/features-1.jpg';
-import featuresImage2 from '../../images/features-2.jpg';
-import featuresImage3 from '../../images/features-3.jpg';
+import profileImage1 from '../../images/profile-1.jpg';
+import profileImage2 from '../../images/profile-2.jpg';
+import profileImage3 from '../../images/profile-3.jpg';
+import profileImage4 from '../../images/profile-4.jpg';
+import profileImage5 from '../../images/profile-5.jpg';
+import profileImage6 from '../../images/profile-6.jpg';
+import profileImage7 from '../../images/profile-7.jpg';
+import profileImage8 from '../../images/profile-8.jpg';
+import profileImage9 from '../../images/profile-9.jpg';
 
 const PeopleSection = () => {
   return (
@@ -11,26 +17,26 @@ const PeopleSection = () => {
         <div className="row"> 
             <div className="col">
                 <div className="card">
-                <img src={featuresImage1} alt="Feature 1" />
+                <img src={profileImage1} alt="Feature 1" />
                 <div className="card-body">
-                    <h5 className="card-title text-center">Grant Rander</h5>  
+                    <h5 className="card-title text-center">Tasha Johnson</h5>  
                 </div>
                 </div>
             </div>
             <div className="col">
                 <div className="card">
-                <img src={featuresImage2} alt="Feature 2" />
+                <img src={profileImage2} alt="Feature 2" />
                 <div className="card-body">
-                    <h5 className="card-title text-center">Mike Baker</h5>
+                    <h5 className="card-title text-center">Latoya Williams</h5>
                     
                 </div>
                 </div>
             </div>
             <div className="col">
                 <div className="card">
-                <img src={featuresImage3} alt="Feature 3" />
+                <img src={profileImage3} alt="Feature 3" />
                 <div className="card-body">
-                    <h5 className="card-title text-center">Christopher Foster </h5>
+                    <h5 className="card-title text-center">Keisha Brown</h5>
                 </div>
                 </div>
             </div>
@@ -38,26 +44,26 @@ const PeopleSection = () => {
         <div className="row"> 
             <div className="col">
                 <div className="card">
-                <img src={featuresImage1} alt="Feature 1" />
+                <img src={profileImage4} alt="Feature 1" />
                 <div className="card-body">
-                    <h5 className="card-title text-center">Grant Rander</h5>  
+                    <h5 className="card-title text-center">Yvonne Davis</h5>  
                 </div>
                 </div>
             </div>
             <div className="col">
                 <div className="card">
-                <img src={featuresImage2} alt="Feature 2" />
+                <img src={profileImage5} alt="Feature 2" />
                 <div className="card-body">
-                    <h5 className="card-title text-center">Mike Baker</h5>
+                    <h5 className="card-title text-center">Marcus Taylor</h5>
                     
                 </div>
                 </div>
             </div>
             <div className="col">
                 <div className="card">
-                <img src={featuresImage3} alt="Feature 3" />
+                <img src={profileImage6} alt="Feature 3" />
                 <div className="card-body">
-                    <h5 className="card-title text-center">Christopher Foster </h5>
+                    <h5 className="card-title text-center">Derrick Robinson </h5>
                 </div>
                 </div>
             </div>
@@ -65,26 +71,26 @@ const PeopleSection = () => {
         <div className="row"> 
             <div className="col">
                 <div className="card">
-                <img src={featuresImage1} alt="Feature 1" />
+                <img src={profileImage7} alt="Feature 1" />
                 <div className="card-body">
-                    <h5 className="card-title text-center">Grant Rander</h5>  
+                    <h5 className="card-title text-center">David Wilson</h5>  
                 </div>
                 </div>
             </div>
             <div className="col">
                 <div className="card">
-                <img src={featuresImage2} alt="Feature 2" />
+                <img src={profileImage8} alt="Feature 2" />
                 <div className="card-body">
-                    <h5 className="card-title text-center">Mike Baker</h5>
+                    <h5 className="card-title text-center">Lamar Jenkins</h5>
                     
                 </div>
                 </div>
             </div>
             <div className="col">
                 <div className="card">
-                <img src={featuresImage3} alt="Feature 3" />
+                <img src={profileImage9} alt="Feature 3" />
                 <div className="card-body">
-                    <h5 className="card-title text-center">Christopher Foster </h5>
+                    <h5 className="card-title text-center">Simone Thompson </h5>
                 </div>
                 </div>
             </div>
