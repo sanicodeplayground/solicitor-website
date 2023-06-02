@@ -11,7 +11,7 @@ import Header from './components/shared/Header';
 
 const App = () => {
   return (
-    <Router basename="/solicitor-website">
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Header />
         <Switch>
