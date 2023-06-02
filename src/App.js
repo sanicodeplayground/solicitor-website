@@ -11,7 +11,7 @@ import Header from './components/shared/Header';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/solicitor-website">
       <div>
         <Header />
         <Switch>

@@ -6,63 +6,63 @@ const ContactInfoSection = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <h3>Details</h3>
-            <p>Email: demo@email.com</p>
+            <h3>Contact Info</h3>
+            <p>Email: info@hallowaylaw.com</p>
             <p>
-              Telephone: London: +44 (0)20 1212 5252<br />
-              Birmingham: +44 (0)121 231 7430
+              Telephone: Eclipse City: +44 (0)20 3456 7890<br />
+              Starlight Town: +44 (0)121 456 7890
             </p>
             <p>
-              Office hours: Monday to Thursday 8.30am to 6.30pm, Friday 8.30am to 6.00pm.
+              Office hours: Monday to Thursday 8.00am to 6.00pm, Friday 8.00am to 5.30pm.
             </p>
             <p>
-              Out of Hours:<br />
-              Emily Martin<br />
-              (Senior Clerk)<br />
-              07834319747
+              After Hours:<br />
+              Charles Davenport<br />
+              (Chief Clerk)<br />
+              07654129877
             </p>
             <p>
               Address:<br />
-              London<br />
-              4-5 Gray’s Inn Square<br />
-              London WC1R 5AH<br />
-              DX No 1029 LDE
+              Eclipse City<br />
+              7-8 Aurora Plaza<br />
+              Eclipse City EC2Y 9HQ<br />
+              DX No 1892 ECE
             </p>
             <p>
-              Birmingham<br />
-              2nd Floor<br />
-              Two Snow Hill<br />
-              Birmingham B4 6GA
+              Starlight Town<br />
+              3rd Floor<br />
+              Three Beacon Hill<br />
+              Starlight Town ST3 8JZ
             </p>
             <p>
-              Press<br />
-              For press enquiries, please contact Emily Martin on +44 (0)20 7404 5252.
+              Media<br />
+              For media enquiries, please contact Charles Davenport on +44 (0)20 3456 7890.
             </p>
             <p>
-              Recruitment<br />
-              Please see our recruitment page.
+              Careers<br />
+              Please see our careers page.
             </p>
             <p>
-              Instruct Us<br />
-              To register an interest in sending instructions to Chambers please Click Here
-              or call +44(0) 20 1212 5252.
+              Hire Us<br />
+              To express an interest in hiring our legal services please Click Here
+              or call +44(0) 20 3456 7890.
             </p>
           </div>
           <div className="col-md-6">
-            <h3>Location</h3>
+            <h3>How to Get Here</h3>
             <p>
               <strong>By Tube</strong><br />
-              Chancery Lane Station (Central line)
+              Eclipse City Station (Sunset line)
             </p>
             <p>
               <strong>By Bus</strong><br />
-              High Holborn: 8, 25, 242, 521<br />
-              Gray's Inn Rd: 12, 45, 46, 341
+              Moonrise Boulevard: 18, 35, 252, 551<br />
+              Aurora Avenue: 22, 55, 66, 352
             </p>
             <p>
               <strong>By Car</strong><br />
-              Enter via the archway in between the Cittie of Yorke (public house) and Tesco,
-              High Holborn (parking is available in Gray's Inn Square)
+              Enter via the gateway between The Celestial Steed (pub) and Luna's Market,
+              Moonrise Boulevard (parking is available in Aurora Plaza)
             </p>
           </div>
         </div>
