@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0a4117030f1414ba240f",
+    "revision": "b3fe1fa5ecf7b4c895ab",
     "url": "/solicitor-website/static/css/main.34091f00.chunk.css"
   },
   {
-    "revision": "0a4117030f1414ba240f",
-    "url": "/solicitor-website/static/js/main.2e53b19e.chunk.js"
+    "revision": "b3fe1fa5ecf7b4c895ab",
+    "url": "/solicitor-website/static/js/main.bb112120.chunk.js"
   },
   {
     "revision": "df576336d4fde5fd88c8",
@@ -96,15 +96,15 @@ self.__precacheManifest = [
     "url": "/solicitor-website/static/media/bootstrap-icons.3d0ec57f.woff"
   },
   {
-    "revision": "22354f56fb743461c13cfed09e0ebd49",
-    "url": "/solicitor-website/static/media/CormorantGaramond-Regular.22354f56.ttf"
-  },
-  {
     "revision": "6c964387bd5890b31ec84032876659b8",
     "url": "/solicitor-website/static/media/CormorantGaramond-Bold.6c964387.ttf"
   },
   {
-    "revision": "9fd43f7c3541c12e1c6d1ff6d8c5350b",
+    "revision": "22354f56fb743461c13cfed09e0ebd49",
+    "url": "/solicitor-website/static/media/CormorantGaramond-Regular.22354f56.ttf"
+  },
+  {
+    "revision": "1fe18cf70ca5b3f79bcb4d34f45b675e",
     "url": "/solicitor-website/index.html"
   }
 ];
