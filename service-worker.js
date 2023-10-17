@@ -11,13 +11,19 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/solicitor-website/precache-manifest.5cdc8b42462aa0351d30d19b3a9123b3.js"
+  "/solicitor-website/precache-manifest.36ac07ee6f55b240c4a78bd192431b67.js"
 );
 
-workbox.clientsClaim();
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
+
+workbox.core.clientsClaim();
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -25,10 +31,9 @@ workbox.clientsClaim();
  * See https://goo.gl/S9QRab
  */
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
-workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/solicitor-website/index.html", {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/solicitor-website/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
